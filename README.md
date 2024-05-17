@@ -51,3 +51,35 @@ curl -X GET --header 'Accept: application/json' 'http://localhost:8030/customer/
 curl -X GET --header 'Accept: application/json' 'http://localhost:8030/customer/customers/pagination?page=0&size=5&sortBy=fullName&direction=ASC&fullName=aloy'
 
 ```
+
+#### :rocket:  Find By id  Api Customer
+```bash 
+curl -X DELETE --header 'Accept: */*' 'http://localhost:8030/customer/customers/402880eb8f876ffa018f877629470000'
+
+```
+
+#### :rocket:  Find By id  Api Customer
+```bash 
+curl -X GET --header 'Accept: application/json' 'http://localhost:8030/customer/customers/402880eb8f87029a018f8702f72f0000'
+
+```
+
+
+#### :rocket:  Delete By id  Api Product
+```bash 
+curl -X DELETE --header 'Accept: application/json' 'http://localhost:8030/customer/products/402880eb8f872fb7018f873196a30001'
+
+```
+#### :rocket:  Find By id  Api Product
+```bash 
+curl -X GET --header 'Accept: application/json' 'http://localhost:8030/customer/products/402880eb8f872fb7018f873196950000'
+
+```
+
+#### :rocket:  Get Data  Api Product Pagination
+```bash 
+curl -X GET --header 'Accept: application/json' 'http://localhost:8030/customer/products/pagination?page=0&size=5'
+
+```
+
+
